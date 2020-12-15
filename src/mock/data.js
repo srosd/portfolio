@@ -2,62 +2,90 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'SergioRos Portfolio', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Sergio Ros',
+  subtitle: 'Full Stack Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'portfolio-pic.jpg',
+  paragraphOne:
+    'Interested in a Full Stack development job that keeps me growing not only professionally but also in a personal way. Preference for team projects and environments that value the importance of a nice job atmosphere.',
+  paragraphTwo:
+    "Enthusiastic of learning and looking always for new goals. Used to work under pressure, dealing with a high level of improvisation and maintaining a problem-solving spirit. Experience in leading teams. I base my management in putting the maximum attention to everyone's needs, ensuring to achieve the goals in the best way to everyone.",
+  paragraphThree: ' ',
+  resume:
+    'https://docs.google.com/document/d/1dTnAMGYyMHsKXfq7FqDfFQyxXGjcyJSnQYDXSmUhk-8/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'veggieplanet.png',
+    title: 'Veggie Planet',
+    info:
+      'Full Stack Web app that allows you to create and share your own vegan recipes. If you own a vegan restaurant you can also create it in the database and share it with all users.',
+    info2:
+      'Implemented using React.js and CSS3 for the front and Node.js, Express.Js, Passport and MongoAtlas for the back.',
+    url: 'https://veggieplanet.netlify.app',
+    repo: 'https://github.com/FinalVeggieProject', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'pokedex.png',
+    title: 'Pokédex Project',
+    info: 'Simulation of the Pokédex functionalites from the Pokémon Series.',
+    info2:
+      'Implemented using HTML5, CSS3 and JS for the front and Node.js, Express.Js, Passport,  MongoAtlas and an external API (https://pokeapi.co/) for the back. Everything in the app is adapted to mobile devices.',
+    url: 'https://pokedexproject1.herokuapp.com/',
+    repo: 'https://github.com/Pokedex/pokedex-project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'ultimateduel.png',
+    title: 'Ultimate Duel',
+    info:
+      'Implemented an online 2-player game in which both players have to shoot each other to win. Designed two different scenarios to play on.',
+    info2: 'Used technologies: HTML5, CSS3 and JavaScript with Canvas.',
+    url: 'srosd.github.io/Ultimate-duel/',
+    repo: 'https://github.com/srosd/Ultimate-duel', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ironnutrition.png',
+    title: 'React IronNutrition',
+    info: 'Page developed with React.js for the Web Development Bootcamp in Ironhack.',
+    info2:
+      'Implemented an instant search bar, adding new foods functionality and display of the selected foods, giving also the total calories sum.',
+    url: 'https://react-ironnutrition.netlify.app/',
+    repo: 'https://github.com/srosd/react-ironnutrition', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ironcontacts.png',
+    title: 'React IronContacts',
+    info: 'Page developed with React.js for the Web Development Bootcamp in Ironhack.',
+    info2:
+      'Displayed a list of famous actors from a given JSON document and filtered the received data. Added sorting and adding-random-actors functionalities. Played a little bit with the styles to explore buttons possibilities.',
+    url: 'https://ironcontacts.netlify.app/',
+    repo: 'https://github.com/srosd/lab-react-ironcontacts', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta:
+    'If you have any questions that I can help with, please feel free to ask me at srosduran@gmail.com',
   btn: '',
   email: '',
 };
@@ -67,28 +95,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sergiorosduran/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/srosd/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
