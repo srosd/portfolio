@@ -23,8 +23,7 @@ export const aboutData = {
   paragraphTwo:
     "Enthusiastic of learning and looking always for new goals. Used to work under pressure, dealing with a high level of improvisation and maintaining a problem-solving spirit. Experience in leading teams. I base my management in putting the maximum attention to everyone's needs, ensuring to achieve the goals in the best way to everyone.",
   paragraphThree: ' ',
-  resume:
-    'https://docs.google.com/document/d/1dTnAMGYyMHsKXfq7FqDfFQyxXGjcyJSnQYDXSmUhk-8/edit?usp=sharing', // if no resume, the button will not show up
+  resume: '/static/SergioRos-resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -76,7 +75,7 @@ export const projectsData = [
     title: 'React IronContacts',
     info: 'Page developed with React.js for the Web Development Bootcamp in Ironhack.',
     info2:
-      'Displayed a list of famous actors from a given JSON document and filtered the received data. Added sorting and adding-random-actors functionalities. Played a little bit with the styles to explore buttons possibilities.',
+      'Displayed a list of famous actors from a given JSON document and filtered the received data. Added sorting and adding-random-actors functionalities. Played a little bit with styles to explore buttons possibilities.',
     url: 'https://ironcontacts.netlify.app/',
     repo: 'https://github.com/srosd/lab-react-ironcontacts', // if no repo, the button will not show up
   },
@@ -84,10 +83,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta:
-    'If you have any questions that I can help with, please feel free to ask me at srosduran@gmail.com',
+  cta: 'If you have any question, please feel free to ask me at:',
   btn: '',
-  email: '',
+  email: 'srosduran@gmail.com',
 };
 
 // FOOTER DATA

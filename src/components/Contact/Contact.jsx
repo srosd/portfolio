@@ -17,7 +17,8 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <p>{email}</p>
+            <p className="email-tag">{email}</p>
+            <p className="phone-tag">+34 695 63 32 32</p>
           </div>
         </Fade>
       </Container>
