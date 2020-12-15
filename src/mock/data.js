@@ -45,7 +45,7 @@ export const projectsData = [
     title: 'Pokédex Project',
     info: 'Simulation of the Pokédex functionalites from the Pokémon Series.',
     info2:
-      'Implemented using HTML5, CSS3 and JS for the front and Node.js, Express.Js, Passport,  MongoAtlas and an external API (https://pokeapi.co/) for the back. Everything in the app is adapted to mobile devices.',
+      'Implemented using HTML5, CSS3 and JS for the front and Node.js, Express.Js, Passport,  MongoAtlas and an external API (https://pokeapi.co/) for the back. Everything in the app is adaptable to mobile devices.',
     url: 'https://pokedexproject1.herokuapp.com/',
     repo: 'https://github.com/Pokedex/pokedex-project', // if no repo, the button will not show up
   },
