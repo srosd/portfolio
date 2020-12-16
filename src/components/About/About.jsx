@@ -54,7 +54,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href="/static/SergioRos-resume.pdf"
+                      href={resume}
                     >
                       Resume
                     </a>
