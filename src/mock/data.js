@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     "Enthusiastic of learning and looking always for new goals. Used to work under pressure, dealing with a high level of improvisation and maintaining a problem-solving spirit. Experience in leading teams. I base my management in putting the maximum attention to everyone's needs, ensuring to achieve the goals in the best way to everyone.",
   paragraphThree: ' ',
-  resume: 'https://wizardly-shockley-6dfc58.netlify.app', // if no resume, the button will not show up
+  resume: 'sergiord-resume.netlify.app', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
