@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Sergio Ros',
-  subtitle: 'Front-end Developer',
+  subtitle: 'Full Stack Developer',
   cta: '',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'portfolio-pic.jpg',
   paragraphOne:
-    'Interested in a Frontend development job that keeps me growing not only professionally but also in a personal way. Preference for team projects and environments that value the importance of a nice job atmosphere.',
+    'Interested in a Full Stack development job that keeps me growing not only professionally but also in a personal way. Preference for team projects and environments that value the importance of a nice job atmosphere.',
   paragraphTwo:
     "Enthusiastic of learning and looking always for new goals. Used to work under pressure, dealing with a high level of improvisation and maintaining a problem-solving spirit. Experience in team relationships, knowing the importance of putting the maximum attention to everyone's needs to ensure the achivements of goals.",
   paragraphThree: ' ',
