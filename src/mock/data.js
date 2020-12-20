@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'sergiord-pic.jpg',
+  img: 'portfolio-image.jpg',
   paragraphOne:
     'Interested in a Full Stack development job that keeps me growing not only professionally but also in a personal way. Preference for team projects and environments that value the importance of a nice job atmosphere.',
   paragraphTwo:
@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'veggieplanet.png',
     title: 'Veggie Planet',
     info:
-      'Full Stack Web app that allows you to create and share your own vegan recipes. If you own a vegan restaurant you can also create it in the database and share it with all users.',
+      'Team Project. Full Stack Web app that allows you to create and share your own vegan recipes. If you own a vegan restaurant you can also create it in the database and share it with all users.',
     info2:
       'Implemented using React.js and CSS3 for the front and Node.js, Express.Js, Passport and MongoAtlas for the back.',
     url: 'https://veggieplanet.netlify.app',
@@ -43,7 +43,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'pokedex.png',
     title: 'Pokédex Project',
-    info: 'Simulation of the Pokédex functionalites from the Pokémon Series.',
+    info: 'Team Project. Simulation of the Pokédex functionalites from the Pokémon Series.',
     info2:
       'Implemented using HTML5, CSS3 and JS for the front and Node.js, Express.Js, Passport,  MongoAtlas and an external API (https://pokeapi.co/) for the back. Everything in the app is adaptable to mobile devices.',
     url: 'https://pokedexproject1.herokuapp.com/',

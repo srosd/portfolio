@@ -5,7 +5,8 @@
     $primary-color 0%,
     $secondary-color 100%
   );
-  color: $white-color;
+  color: $dark-grey;
+  font-weight: bold;
   height: 100%;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -77,5 +78,8 @@
         }
       }
     }
+  }
+  img {
+    border-radius: 10px;
   }
 }
