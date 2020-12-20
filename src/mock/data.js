@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'portfolio-pic.jpg',
+  img: 'sergiord-pic.jpg',
   paragraphOne:
     'Interested in a Full Stack development job that keeps me growing not only professionally but also in a personal way. Preference for team projects and environments that value the importance of a nice job atmosphere.',
   paragraphTwo:
