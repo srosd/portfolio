@@ -29,6 +29,7 @@ export default function HTML({
         {preBodyComponents}
         <div key="body" id="___gatsby" dangerouslySetInnerHTML={{ __html: body }} />
         {postBodyComponents}
+        <script src="https://kit.fontawesome.com/f3e8e9157c.js" crossOrigin="anonymous" />
       </body>
     </html>
   );
