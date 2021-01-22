@@ -37,7 +37,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <div className="text-left mb-4">
+                <div className="text-center mb-4">
                   <i className="fab fa-html5 fa-6x mr-4" />
                   <i className="fab fa-css3 fa-6x mr-4" />
                   <i className="fab fa-js fa-6x mr-4" />
