@@ -64,9 +64,9 @@ export const projectsData = [
     img: 'peliculas-app.png',
     title: 'Peliculas DB (SPA)',
     info:
-      'Team Project. Full Stack Web app that allows you to create and share your own vegan recipes. If you own a vegan restaurant you can also create it in the database and share it with all users.',
+      'Movie App that displays all movies that are currently playing on cinemas, implementing an infinite scroll on the home page. You can also search for an specific movie writing only a part of the title.',
     info2:
-      'Implemented using React.js and CSS3 for the front and Node.js, Express.Js, Passport and MongoAtlas for the back.',
+      'Implemented using Angular, CSS3, Swiper and an external API (https://www.themoviedb.org/documentation/api).',
     url: 'https://movies-app-srosd.netlify.app/home',
     repo: 'https://github.com/srosd/peliculasApp-angular', // if no repo, the button will not show up
   },
