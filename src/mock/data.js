@@ -61,6 +61,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'peliculas-app.png',
+    title: 'Peliculas DB (SPA)',
+    info:
+      'Team Project. Full Stack Web app that allows you to create and share your own vegan recipes. If you own a vegan restaurant you can also create it in the database and share it with all users.',
+    info2:
+      'Implemented using React.js and CSS3 for the front and Node.js, Express.Js, Passport and MongoAtlas for the back.',
+    url: 'https://movies-app-srosd.netlify.app/home',
+    repo: 'https://github.com/srosd/peliculasApp-angular', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ironnutrition.png',
     title: 'React IronNutrition',
     info: 'Page developed with React.js for the Web Development Bootcamp in Ironhack.',
