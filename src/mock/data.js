@@ -66,7 +66,7 @@ export const projectsData = [
     info:
       'Movie App that displays all movies that are currently playing on cinemas, implementing an infinite scroll on the home page. You can also search for an specific movie writing only a part of the title.',
     info2:
-      'Implemented using Angular, CSS3, Swiper and an external API (https://www.themoviedb.org/documentation/api).',
+      'Implemented using Angular, CSS3, Swiper and an external API (https://www.themoviedb.org).',
     url: 'https://movies-app-srosd.netlify.app/home',
     repo: 'https://github.com/srosd/peliculasApp-angular', // if no repo, the button will not show up
   },
