@@ -20,7 +20,7 @@ export default function HTML({
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta property="og:title" content="Sergio Ros Portfolio" />
-        <meta name="image" property="og:image" content="../src/images/logo.png" />
+        <meta name="image" property="og:image" content="https://sergiord.com/logo.png" />
         <meta property="og:description" content="Personal portfolio of Sergio ros." />
         <meta property="og:url" content="https://sergiord.com" />
         {headComponents}
